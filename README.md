@@ -1,2 +1,61 @@
-# AI-Wordle-Solver
-A terminal-based Wordle solver built in Java with AI and player modes.
+# 🧠 AI-Wordle-Solver
+*A logic-driven Wordle solver in Java - play, watch, or compete with the AI.*
+
+A Java project that plays and solves the popular **New York Times game "Wordle"** through logical elimination and smart filtering. Includes **User Mode**, **AI Mode**, and **User vs AI Mode**
+
+---
+
+## 🚀 Features
+- Loads official Wordle lists from external `.txt` files  
+- **Colour-coded feedback** (green, yellow, grey)  
+- Filters out impossible words after each guess
+- Modular and easy-to-read Java code
+> *Note: The “AI” uses logic-based elimination, not machine learning - but the name sticks because it sounds cool!*
+
+---
+
+## 🕹️ How to Run
+```bash
+git clone https://github.com/Eccyolk/AI-Wordle-Solver.git
+cd AI-Wordle-Solver
+javac main/java/solver/*.java
+java main.java.solver.MainMenu
+```
+
+---
+
+## 💡 Example Output (truncated)
+    ```markdown
+    ===============================
+      WELCOME TO AI WORDLE SOLVER
+    ===============================
+
+    1. Play a classic game of Wordle
+    2. Let AI guess
+    3. Play against AI
+    4. Quit
+
+    Attempt 1: AI guesses SLATE
+    ⬜⬜🟨⬜🟨
+
+    Attempt 2: AI guesses AHEAD
+    🟩⬜🟩⬜🟩
+
+    Attempt 3: AI guesses AMEND
+    🟩🟩🟩🟩🟩
+
+    AI guessed the word in 3 attempts!
+    
+---
+
+## 🧰 Built With
+- **Language:** Java (JDK 17+)
+- **Libraries:** Standard Java libraries (`java.util`, `java.io`)
+- **Interface: Terminal-based with ANSI colour codes**
+
+---
+
+## 🏷️ Author
+**Eccyolk**<br>
+📅 Created: November 2025<br>
+🔗 GitHub: [github.com/Eccyolk](https://github.com/Eccyolk)
